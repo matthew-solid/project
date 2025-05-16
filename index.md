@@ -21,7 +21,7 @@ A modern technical support system designed to streamline customer service operat
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/technical-support.git
+git clone https://github.com/matthew-solid/technical-support.git
 cd technical-support
 ```
 
@@ -63,4 +63,4 @@ graph TD
 
 ## Documentation
 
-For more detailed information, please visit our [GitHub repository](https://github.com/yourusername/technical-support). 
+For more detailed information, please visit our [GitHub repository](https://github.com/matthew-solid/technical-support). 
