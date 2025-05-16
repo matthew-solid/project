@@ -86,8 +86,9 @@ graph TD
 ```
 
 ## 🔹 Contacts
-- GitHub: [Your GitHub Profile]
-- Email: [Your Email]
+- GitHub: [matthew-solid](https://github.com/matthew-solid)
+- Name: Edimaobong Matthew
+- Email: edimaobongmatthew@gmail.com
 
 ## 🔹 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
