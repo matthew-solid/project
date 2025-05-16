@@ -1,0 +1,6 @@
+would reformat /Users/edima/Desktop/code/exercises/project/src/main.py
+would reformat /Users/edima/Desktop/code/exercises/project/tests/test_main.py
+would reformat /Users/edima/Desktop/code/exercises/project/src/models.py
+
+Oh no! 💥 💔 💥
+3 files would be reformatted, 2 files would be left unchanged.

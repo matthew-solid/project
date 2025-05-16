@@ -1,0 +1,3 @@
+src/main.py:6:80: E501 line too long (82 > 79 characters)
+src/models.py:35:80: E501 line too long (84 > 79 characters)
+tests/test_main.py:10:80: E501 line too long (84 > 79 characters)
