@@ -12,7 +12,7 @@ def init_db():
     Base.metadata.create_all(bind=engine)
 
     # Create session factory
-    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+    # SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
     print("Database tables created successfully!")
 
