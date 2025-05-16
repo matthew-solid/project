@@ -66,10 +66,6 @@ python main.py
 - User Authentication & Authorization
 - API Integration Capabilities
 
-## 🔹 Visuals/Screenshots
-![System Architecture](docs/images/architecture.png)
-*System Architecture Diagram*
-
 ## 🔹 Project Structure
 ```mermaid
 graph TD
