@@ -1,4 +1,5 @@
 from sqlalchemy import create_engine
+
 # from sqlalchemy.orm import sessionmaker  # Removed unused import
 from src.models import Base
 from src.config import settings
