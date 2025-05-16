@@ -23,13 +23,13 @@ class TicketStatus(enum.Enum):
     CLOSED = "closed"
 
 
-class Ticket(Base):
+class Ticket(Base):  # type: ignore
     __tablename__ = "tickets"
 
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String(200), nullable=False)
     description = Column(Text, nullable=False)
-    status = Column(Enum(TicketStatus), default=TicketStatus.OPEN)
+    status: TicketStatus = Column(Enum(TicketStatus), default=TicketStatus.OPEN)  # type: ignore
     priority = Column(Integer, default=3)  # 1: High, 2: Medium, 3: Low
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
@@ -43,7 +43,7 @@ class Ticket(Base):
     assignee = relationship("User", foreign_keys=[assigned_to])
 
 
-class User(Base):
+class User(Base):  # type: ignore
     __tablename__ = "users"
 
     id = Column(Integer, primary_key=True, index=True)
