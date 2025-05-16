@@ -29,7 +29,9 @@ class Ticket(Base):  # type: ignore
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String(200), nullable=False)
     description = Column(Text, nullable=False)
-    status: TicketStatus = Column(Enum(TicketStatus), default=TicketStatus.OPEN)  # type: ignore
+    status: TicketStatus = Column(
+        Enum(TicketStatus), default=TicketStatus.OPEN
+    )  # type: ignore
     priority = Column(Integer, default=3)  # 1: High, 2: Medium, 3: Low
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
