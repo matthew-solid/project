@@ -33,7 +33,7 @@ All three tools are integrated into the CI workflow and reports are saved in the
 ## 🔹 How to Run
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/technical-support.git
+git clone https://github.com/matthew-solid/technical-support.git
 cd technical-support
 ```
 
